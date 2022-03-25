@@ -324,7 +324,7 @@ MonoBehaviour:
   wallsParent: {fileID: 1229837569}
   generateRoof: 0
   tilesToRemove: 350
-  mazeSize: 30
+  mazeSize: 50
   pickup: {fileID: 100000, guid: be400c8265d9c4977800d48e9650f26e, type: 3}
 --- !u!4 &502313971
 Transform:
@@ -378,7 +378,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 748641241}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f72fdff31ff0e4b68876ced0406b2fa8, type: 3}
@@ -488,7 +488,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 748641241}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8a7d2ebc1686142a7b291ec616876f3e, type: 3}
@@ -857,9 +857,17 @@ PrefabInstance:
       propertyPath: m_JumpSpeed
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 14300000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_Center.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 14300000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
